@@ -2,7 +2,7 @@ import json
 import sqlite3
 
 
-def load_to_sqlite(json_file, db_name='elt.db'):
+def load_to_sqlite(json_file, db_name='etl.db'):
     try:
         with open(json_file, 'r') as f:
             products = json.load(f)

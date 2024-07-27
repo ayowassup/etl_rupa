@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/elt_rupa.iml" filepath="$PROJECT_DIR$/.idea/elt_rupa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/etl_rupa.iml" filepath="$PROJECT_DIR$/.idea/etl_rupa.iml" />
     </modules>
   </component>
 </project>
