@@ -16,6 +16,7 @@ This project is an automated ETL (Extract, Transform, Load) pipeline designed to
     - [3. Load Data](#3-load-data)
   - [Database Schema](#database-schema)
   - [ETL Process Diagram](#etl-process-diagram)
+  - [Disclaimer](#disclaimer)
   - [License](#license)
 
 ## Project Description
@@ -101,6 +102,9 @@ CREATE TABLE products (
 
 ## ETL Process Diagram
 ![ETL Process Diagram](https://github.com/user-attachments/assets/81624225-754b-42f2-887c-a699654bd0c7)
+
+## Disclaimer
+This project is intended for educational and research purposes only. Please respect the terms of service of ruparupa.com and use the extracted data responsibly.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
