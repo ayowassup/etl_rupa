@@ -16,6 +16,7 @@ This project is an automated ETL (Extract, Transform, Load) pipeline designed to
     - [3. Load Data](#3-load-data)
   - [Database Schema](#database-schema)
   - [ETL Process Diagram](#etl-process-diagram)
+  - [License](#license)
 
 ## Project Description
 
@@ -35,12 +36,13 @@ This project demonstrates an automated solution for collecting, transforming, an
 ```plaintext
 etl_rupa/
 │
-├── extract.py                  # Extraction script
-├── transform.py                # Transformation script
-├── load.py                     # Loading script
-├── requirements.txt            # Project dependencies
-├── raw_products.json           # Raw products data
-└── transformed_products.json   # Transformed products data
+├── LICENSE                             # License file
+├── README.md                           # Project README
+├── extract.py                          # Extraction script
+├── transform.py                        # Transformation script
+├── load.py                             # Loading script
+├── Products_table_sample_records.png   # Top 10 sample records from products table
+└── requirements.txt                    # Project dependencies
 ```
 
 ## Installation
@@ -66,7 +68,7 @@ etl_rupa/
    This will create `raw_products.json` containing the raw scraped data.
 
     
-3. Transform data:
+2. Transform data:
    
    ```sh
     python transform.py
